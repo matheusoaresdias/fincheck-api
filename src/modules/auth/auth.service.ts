@@ -4,7 +4,7 @@ import {
   UnauthorizedException,
 } from '@nestjs/common';
 import { SigninDTO } from './dto/signin.dto';
-import { UsersRepository } from 'src/shared/database/repositories/users.repositores';
+import { UsersRepository } from 'src/shared/database/repositories/users.repositories';
 import { compare, hash } from 'bcryptjs';
 import { JwtService } from '@nestjs/jwt';
 import { SignupDTO } from './dto/signup.dto';
